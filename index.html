@@ -11,114 +11,90 @@
 <h1>Animation Buttons<br>Click To Change The Color</h1>
 
 <div class="frame">
-  <button id="btn1" class="custom-btn btn-1">GRAY</button>
-  <button id="btn2" class="custom-btn btn-2">YELLOW</button>
-  <button id="btn3" class="custom-btn btn-3"><span>GOLD</span></button>
-  <button Id="btn4" class="custom-btn btn-4"><span>BLUE</span></button>
-  <button id="btn5" class="custom-btn btn-5"><span>CYAN</span></button>
-  <button id="btn6" class="custom-btn btn-6"><span>PURPLE</span></button>
-  <button id="btn7" class="custom-btn btn-7"><span>ORANGE</span></button>
-  <button id="btn8" class="custom-btn btn-8"><span>BROWN</span></button>
-  <button id="btn9" class="custom-btn btn-9">BLACK</button>
-  <button id="btn10" class="custom-btn btn-10">GREEN</button>
-  <button id="btn11" class="custom-btn btn-11">PINK<div class="dot"></div></button>
-  <button id="btn12" class="custom-btn btn-12"><span>Click!</span><span>OLIVA</span></button>
-  <button id="btn13" class="custom-btn btn-13">LIME</button>
-  <button id="btn14" class="custom-btn btn-14">SILVER</button>
-  <button id="btn15" class="custom-btn btn-15">AQUA</button>
-  <button id="btn16" class="custom-btn btn-16">TEAL</button>
+  <button onclick="color()" class="custom-btn btn-1">GRAY</button>
+  <button onclick="color1()" class="custom-btn btn-2">YELLOW</button>
+  <button onclick="color2()"class="custom-btn btn-3"><span>GOLD</span></button>
+  <button onclick="color3()" class="custom-btn btn-4"><span>BLUE</span></button>
+  <button onclick="color4()" class="custom-btn btn-5"><span>CYAN</span></button>
+  <button onclick="color5()" class="custom-btn btn-6"><span>PURPLE</span></button>
+  <button onclick="color6()" class="custom-btn btn-7"><span>ORANGE</span></button>
+  <button onclick="color7()" class="custom-btn btn-8"><span>BROWN</span></button>
+  <button onclick="color8()" class="custom-btn btn-9">BLACK</button>
+  <button onclick="color9()" class="custom-btn btn-10">GREEN</button>
+  <button onclick="color10()" class="custom-btn btn-11">PINK<div class="dot"></div></button>
+  <button onclick="color11()" class="custom-btn btn-12"><span>Click!</span><span>OLIVA</span></button>
+  <button onclick="color12()" class="custom-btn btn-13">LIME</button>
+  <button onclick="color13()" class="custom-btn btn-14">SILVER</button>
+  <button onclick="color14()" class="custom-btn btn-15">AQUA</button>
+  <button onclick="color15()" class="custom-btn btn-16">TEAL</button>
   <p style="font-family: Andale Mono, monospace;">
     Git-Sarfraz</p>
 </div> 
 </body>
 <script>
-  const btn1 = document.getElementById('btn1');
-btn1.addEventListener('click', function onClick(event)
- {
-  document.body.style.backgroundColor = '#b4afad';
-});
-const btn2 = document.getElementById('btn2');
-btn2.addEventListener('click', function onClick(event)
- {
+  function color(){
+  document.body.style.backgroundColor = 'gray';
+  }
+  
+  function color1(){
   document.body.style.backgroundColor = 'yellow';
- });
- const btn3 = document.getElementById('btn3');
-btn3.addEventListener('click', function onClick(event)
- {
+  }
+ 
+  function color2(){
   document.body.style.backgroundColor = 'gold';
-});
-const btn4 = document.getElementById('btn4');
-btn4.addEventListener('click', function onClick(event)
- {
+  }
   
+  function color3(){
   document.body.style.backgroundColor = 'blue';
-
- });
- const btn5 = document.getElementById('btn5');
-btn5.addEventListener('click', function onClick(event)
- {
+  }
+ 
+  function color4(){
   document.body.style.backgroundColor = 'cyan';
-});
-const btn6 = document.getElementById('btn6');
-btn6.addEventListener('click', function onClick(event)
- {
+  }
+  
+  function color5(){
   document.body.style.backgroundColor = 'purple';
- });
- const btn7 = document.getElementById('btn7');
-btn7.addEventListener('click', function onClick(event)
- {
+  }
+  function color6(){
   document.body.style.backgroundColor = 'orange';
-});
-const btn8 = document.getElementById('btn8');
-btn8.addEventListener('click', function onClick(event)
- {
+  }
   
+  function color7(){
   document.body.style.backgroundColor = 'brown';
-
- });
- const btn9 = document.getElementById('btn9');
-btn9.addEventListener('click', function onClick(event)
- {
+  }
+ 
+  function color8(){
   document.body.style.backgroundColor = 'black';
-});
-const btn10 = document.getElementById('btn10');
-btn10.addEventListener('click', function onClick(event)
- {
+  }
+  
+  function color9(){
   document.body.style.backgroundColor = 'green';
- });
- const btn11 = document.getElementById('btn11');
-btn11.addEventListener('click', function onClick(event)
- {
+  }
+ 
+  function color10(){
   document.body.style.backgroundColor = 'pink';
-});
-const btn12 = document.getElementById('btn12');
-btn12.addEventListener('click', function onClick(event)
- {
+  }
   
+  function color11(){
   document.body.style.backgroundColor = 'olive';
-
- });
- const btn13 = document.getElementById('btn13');
-btn13.addEventListener('click', function onClick(event)
- {
+  }
+  function color12(){
   document.body.style.backgroundColor = 'lime';
-});
-const btn14 = document.getElementById('btn14');
-btn14.addEventListener('click', function onClick(event)
- {
-  document.body.style.backgroundColor = 'silver';
- });
- const btn15 = document.getElementById('btn15');
-btn15.addEventListener('click', function onClick(event)
- {
-  document.body.style.backgroundColor = 'aqua';
-});
-const btn16 = document.getElementById('btn16');
-btn16.addEventListener('click', function onClick(event)
- {
+  }
   
+  function color13(){
+  document.body.style.backgroundColor = 'silver';
+  }
+ 
+  function color14(){
+  document.body.style.backgroundColor = 'aqua';
+  }
+  
+  function color15(){
   document.body.style.backgroundColor = 'teal';
+  }
+ 
 
- });
- </Script>
+  </script>
+  
 </html>
