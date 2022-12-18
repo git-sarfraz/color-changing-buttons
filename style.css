@@ -604,7 +604,9 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   line-height: 42px;
   -webkit-perspective: 230px;
   perspective: 230px;
+ 
 }
+
 .btn-12 span {
   background: olivedrab;
   display: block;
@@ -622,6 +624,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   box-sizing: border-box;
   -webkit-transition: all .3s;
   transition: all .3s;
+ 
 }
 .btn-12 span:nth-child(1) {
   box-shadow:
@@ -635,6 +638,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   -webkit-transform-origin: 50% 50% -20px;
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
+  
 }
 .btn-12 span:nth-child(2) {
   -webkit-transform: rotateX(0deg);
@@ -643,6 +647,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   -webkit-transform-origin: 50% 50% -20px;
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
+ 
 }
 .btn-12:hover span:nth-child(1) {
   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
@@ -656,16 +661,18 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
- color: transparent;
+  color: transparent;
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
+  color:olive;
 }
+
 
 
 /* 13 */
 .btn-13 {
-  background-color: #eefda9;
+  background-color:lime;
   border: none;
   z-index: 1;
   color:black;
@@ -679,8 +686,8 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   left: 0;
   z-index: -1;
   border-radius: 5px;
-   background-color: #ddf193;
-background-image: linear-gradient(315deg, #e4f794 0%, #fbfdfd 74%);
+   background-color: lime;
+background-image: linear-gradient(315deg, lime 26%, #fbfdfd 74%);
   box-shadow:
    -7px -7px 20px 0px #fff9,
    -4px -4px 5px 0px #fff9,
@@ -689,8 +696,9 @@ background-image: linear-gradient(315deg, #e4f794 0%, #fbfdfd 74%);
   transition: all 0.3s ease;
 }
 .btn-13:hover {
-  color: #fff;
+  color: black;
 }
+
 .btn-13:hover:after {
   top: 0;
   height: 100%;
