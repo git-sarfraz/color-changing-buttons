@@ -736,7 +736,7 @@ background-image: linear-gradient(315deg, #e4f794 0%, #fbfdfd 74%);
 
 /* 15 */
 .btn-15 {
-  background:gold;
+  background:aqua;
   border: none;
   z-index: 1;
 }
@@ -748,7 +748,7 @@ background-image: linear-gradient(315deg, #e4f794 0%, #fbfdfd 74%);
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: gold;
+  background-color: aqua;
   border-radius: 5px;
    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
    7px 7px 20px 0px rgba(0,0,0,.1),
@@ -756,7 +756,7 @@ background-image: linear-gradient(315deg, #e4f794 0%, #fbfdfd 74%);
   transition: all 0.3s ease;
 }
 .btn-15:hover {
-  color: #fff;
+  color: black;
 }
 .btn-15:hover:after {
   left: 0;
